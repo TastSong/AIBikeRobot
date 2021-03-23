@@ -1,0 +1,23 @@
+{
+    "TestBall": {
+        "checkpoints": [
+            {
+                "steps": 196859,
+                "file_path": "results\\TestBall\\TestBall\\TestBall-196859.onnx",
+                "reward": 0.9932885906040269,
+                "creation_time": 1616509411.7101128
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 196859,
+            "file_path": "results\\TestBall\\TestBall.onnx",
+            "reward": 0.9932885906040269,
+            "creation_time": 1616509411.7101128
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.25.0",
+        "torch_version": "1.7.1+cpu"
+    }
+}
