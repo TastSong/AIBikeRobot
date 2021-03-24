@@ -358,7 +358,7 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 1
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 5022602860645237092, guid: 8b488a7b3ff262640a5be789c5653a9a, type: 3}
+  m_Model: {fileID: 5022602860645237092, guid: 123c8929826dd8e4bb5bb0eb05776020, type: 3}
   m_InferenceDevice: 0
   m_BehaviorType: 0
   m_BehaviorName: TestBall
