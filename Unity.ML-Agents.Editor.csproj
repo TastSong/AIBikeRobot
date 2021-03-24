@@ -291,6 +291,12 @@
     <Reference Include="System.Interactive.Async">
       <HintPath>F:/Github/ml-agents-release_15/com.unity.ml-agents/Plugins/ProtoBuffer/System.Interactive.Async.dll</HintPath>
     </Reference>
+    <Reference Include="EasyRoads3Dv3">
+      <HintPath>F:/Github/AIBikeRobot/Assets/EasyRoads3D/lib/EasyRoads3Dv3.dll</HintPath>
+    </Reference>
+    <Reference Include="EasyRoads3Dv3Editor">
+      <HintPath>F:/Github/AIBikeRobot/Assets/EasyRoads3D/Editor/EasyRoads3Dv3Editor.dll</HintPath>
+    </Reference>
     <Reference Include="nunit.framework">
       <HintPath>F:/Github/AIBikeRobot/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
