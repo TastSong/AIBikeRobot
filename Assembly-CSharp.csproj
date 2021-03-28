@@ -64,6 +64,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\AIBikeRobot\Scripts\CameraFollow.cs" />
+    <Compile Include="Assets\AIBikeRobot\Scripts\GameController.cs" />
+    <Compile Include="Assets\AIBikeRobot\Scripts\PlayerController.cs" />
     <Compile Include="Assets\EasyRoads3D scenes\TestEasyRoad.cs" />
     <Compile Include="Assets\TestBall\BallAgent.cs" />
     <None Include="Assets\EasyRoads3D\shaders\EasyRoads3D-Surface-Offset.shader" />
@@ -260,6 +263,9 @@
     <Reference Include="UnityEditor">
       <HintPath>D:/Program Files/Unity/Hub/Editor/2019.4.14f1c1/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
+    <Reference Include="EasyRoads3Dv3">
+      <HintPath>F:/Github/AIBikeRobot/Assets/EasyRoads3D/lib/EasyRoads3Dv3.dll</HintPath>
+    </Reference>
     <Reference Include="Google.Protobuf">
       <HintPath>F:/Github/AIBikeRobot/Library/PackageCache/com.unity.barracuda@1.3.2-preview/Barracuda/Runtime/Plugins/ProtoBuffer/Google.Protobuf.dll</HintPath>
     </Reference>
@@ -277,9 +283,6 @@
     </Reference>
     <Reference Include="System.Interactive.Async">
       <HintPath>F:/Github/ml-agents-release_15/com.unity.ml-agents/Plugins/ProtoBuffer/System.Interactive.Async.dll</HintPath>
-    </Reference>
-    <Reference Include="EasyRoads3Dv3">
-      <HintPath>F:/Github/AIBikeRobot/Assets/EasyRoads3D/lib/EasyRoads3Dv3.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>D:/Program Files/Unity/Hub/Editor/2019.4.14f1c1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
