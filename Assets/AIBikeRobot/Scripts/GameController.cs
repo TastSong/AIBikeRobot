@@ -5,6 +5,8 @@ using UnityEngine;
 public class GameController : MonoBehaviour
 {
     public static GameController instance = null;
+    public RouteManger routeManger;
+    public RouteNet routeNet;
 
     private void Awake() {    //防止存在多个单例
         if (instance == null)

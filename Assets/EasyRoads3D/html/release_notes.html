@@ -24,7 +24,7 @@
 	  <tr>
 	    <td colspan="2" class="style1"><p class="style1">&nbsp;</p>
 	      <p class="header1" style="color:#000">Release Notes 
-	      v3.1.9f4<hr>
+	      v3.1.9.f1<hr>
 	      <p class="style21">&nbsp;</p>
 	      <p class="header2">Important</p>
 	      <p class="style21">&nbsp;</p>
@@ -53,20 +53,17 @@
 
 <p class="style1">&nbsp;</p>
 <p class="style1"><strong>New:</strong></p>
-<p class="style1">- Marker Road shape control through the scripting API: ERRoad.GetRoadShapeNodes(int markerIndex), ERRoad.SetRoadShapeNodes(int markerIndex, Vector2[] nodes) , ERRoad.SetRoadShapeNodes(int[] markerIndexes, Vector2[] nodes)</p>
-<p class="style1">&nbsp;</p>
-
-<p class="style1"><strong>Changed:</strong></p>
-<p>- Scripting API: Obsolete ERRoadNetwork.GetSourceConnectionByName(string name). This is replaced by ERRoadNetwork.GetConnectionPrefabByName(string name)</p>
-<p>&nbsp;</p>
+<p class="style1">- CTRL + SHIFT + M: Snap all the road markers to the terrain height at the markers position</p>
+<p class="style1">- CTRL + M: Snap  the selected road marker to the terrain height at that position</p>
+<p class="style1">- Scripting API: ERRoad.GetMarkerCount(), returns the total number of markers for a the road</p>
+<p class="style1">- Scripting API: ERRoad.GetDistance(int markerIndex), returns the distance of the section corresponding to the passed marker index</p>
+<p class="style1"></p>
 <p class="style1"><strong>Improved:</strong></p>
-<p class="style1">- The marker alignment options when 2 markers are selected can now also be used for two road object sections connected with an I Connector</p>
-<p class="style1">- Unity 2019.3, Inspector foldouts can now also be opened by clicking on the arrow just like in previous Unity versions</p>
+<p class="style1">- &quot;Ratio&quot; control for Side Object Connection objects. This represents how often the connection object is instantiated. 1 is every section, 2 is every two sections, and so on. This is for example useful for bridge pillars that should be instantiated less frequently then every repeated section.</p>
+<p class="style1">- The side objects &quot;Default active state for each marker&quot; can now also be set / unset for individual road objects. </p>
 <p class="style1">&nbsp;</p>
 <p class="style1"><strong>Fixed:</strong></p>
-<p class="style1">- Scripting API: ERRoad.SplitRoad(int markerIndex)<br>
-  - Missing Category selection option for side objects in the Side Object Manager<br>
-  - Miscellaneous other small bugs and improvements</p>
+<p class="style1">- Miscellaneous other small bugs and improvements</p>
 <p class="style1">&nbsp;</p>
           <p class="header2">To Do / Current limitations:          </p>
           <p class="style1">&nbsp;</p>
