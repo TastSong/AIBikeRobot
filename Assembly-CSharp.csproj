@@ -278,6 +278,9 @@
     <Reference Include="UnityEditor">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.14f1c1/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
+    <Reference Include="DelaunayER">
+      <HintPath>F:/Github/AIBikeRobot/Assets/EasyRoads3D/lib/DelaunayER.dll</HintPath>
+    </Reference>
     <Reference Include="EasyRoads3Dv3">
       <HintPath>F:/Github/AIBikeRobot/Assets/EasyRoads3D/lib/EasyRoads3Dv3.dll</HintPath>
     </Reference>
@@ -298,9 +301,6 @@
     </Reference>
     <Reference Include="System.Interactive.Async">
       <HintPath>F:/Github/ml-agents-release_15/com.unity.ml-agents/Plugins/ProtoBuffer/System.Interactive.Async.dll</HintPath>
-    </Reference>
-    <Reference Include="DelaunayER">
-      <HintPath>F:/Github/AIBikeRobot/Assets/EasyRoads3D/lib/DelaunayER.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.14f1c1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

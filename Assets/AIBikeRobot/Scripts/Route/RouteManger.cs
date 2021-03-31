@@ -3,11 +3,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RouteManger : MonoBehaviour
+public class RouteManger
 {
     public static List<Vector3> lsPoint = new List<Vector3>();
     public int baseCount = 50;  //两个基础点之间的取点数量   值越大曲线就越平滑  但同时计算量也也越大
-    public LineRenderer lineRender;
 
     //初始化算出所有的点的信息
     public List<Vector3> InitPoint(Vector3[] basePoint) {
@@ -29,11 +28,9 @@ public class RouteManger : MonoBehaviour
     private void GetTrackPoint(Vector3[] track) {
         Vector3[] vector3s = PathControlPointGenerator(track);
         int SmoothAmount = track.Length * baseCount;
-        lineRender.positionCount = SmoothAmount;
         for (int i = 1; i < SmoothAmount; i++) {
             float pm = (float)i / SmoothAmount;
             Vector3 currPt = Interp(vector3s, pm);
-            lineRender.SetPosition(i, currPt);
             lsPoint.Add(currPt);
         }
     }
