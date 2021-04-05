@@ -2,23 +2,17 @@
     "TestBall": {
         "checkpoints": [
             {
-                "steps": 499994,
-                "file_path": "results\\TestBall\\TestBall\\TestBall-499994.onnx",
-                "reward": 0.9695121951219512,
-                "creation_time": 1616513011.933611
-            },
-            {
-                "steps": 900028,
-                "file_path": "results\\TestBall\\TestBall\\TestBall-900028.onnx",
-                "reward": 0.9709090909090909,
-                "creation_time": 1616513831.1421967
+                "steps": 29901,
+                "file_path": "results\\TestBall\\TestBall\\TestBall-29901.onnx",
+                "reward": 0.5098039215686274,
+                "creation_time": 1617612217.9839826
             }
         ],
         "final_checkpoint": {
-            "steps": 900028,
+            "steps": 29901,
             "file_path": "results\\TestBall\\TestBall.onnx",
-            "reward": 0.9709090909090909,
-            "creation_time": 1616513831.1421967
+            "reward": 0.5098039215686274,
+            "creation_time": 1617612217.9839826
         }
     },
     "metadata": {

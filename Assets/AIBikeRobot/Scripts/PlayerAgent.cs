@@ -81,7 +81,7 @@ public class PlayerAgent : Agent
 
     private void OnTriggerEnter(Collider other) {
         if (other.tag == "Player") {
-            Debug.Log("+++++++ 碰撞");
+            Debug.Log("+++++++ Touch " + other.name);
             isTouch = true;
         }
     }
