@@ -2,17 +2,29 @@
     "AIBikeRobot": {
         "checkpoints": [
             {
-                "steps": 5407,
-                "file_path": "results\\AIBikeRobot\\AIBikeRobot\\AIBikeRobot-5407.onnx",
-                "reward": 0.09747899308333968,
-                "creation_time": 1617613159.9733357
+                "steps": 499999,
+                "file_path": "results\\AIBikeRobot\\AIBikeRobot\\AIBikeRobot-499999.onnx",
+                "reward": 0.10000000149011612,
+                "creation_time": 1617616476.9119234
+            },
+            {
+                "steps": 999999,
+                "file_path": "results\\AIBikeRobot\\AIBikeRobot\\AIBikeRobot-999999.onnx",
+                "reward": 0.10000000149011612,
+                "creation_time": 1617618442.0485086
+            },
+            {
+                "steps": 1292886,
+                "file_path": "results\\AIBikeRobot\\AIBikeRobot\\AIBikeRobot-1292886.onnx",
+                "reward": 0.10000000149011612,
+                "creation_time": 1617620581.0440953
             }
         ],
         "final_checkpoint": {
-            "steps": 5407,
+            "steps": 1292886,
             "file_path": "results\\AIBikeRobot\\AIBikeRobot.onnx",
-            "reward": 0.09747899308333968,
-            "creation_time": 1617613159.9733357
+            "reward": 0.10000000149011612,
+            "creation_time": 1617620581.0440953
         }
     },
     "metadata": {
