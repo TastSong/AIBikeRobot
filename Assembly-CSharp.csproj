@@ -75,6 +75,7 @@
     <Compile Include="Assets\3rd\LitJson\ParserToken.cs" />
     <Compile Include="Assets\AIBikeRobot\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\AIBikeRobot\Scripts\GameController.cs" />
+    <Compile Include="Assets\AIBikeRobot\Scripts\PlayerAgent.cs" />
     <Compile Include="Assets\AIBikeRobot\Scripts\PlayerController.cs" />
     <Compile Include="Assets\AIBikeRobot\Scripts\Route\CatmullRomSpline.cs" />
     <Compile Include="Assets\AIBikeRobot\Scripts\Route\RouteManger.cs" />

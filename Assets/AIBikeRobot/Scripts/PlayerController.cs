@@ -7,32 +7,43 @@ using System;
 public class PlayerController : MonoBehaviour
 {
     public float speed = 10;
-    public RouteNet routeNet;
    
     private Rigidbody rig;
     private float length;
-    private static List<Vector3> lsPoint = new List<Vector3>();
+    private enum PosType{
+        LEFT = 0,
+        CENTER = 1,
+        RIGHT = 2
+    }
+
+    private PosType posType = PosType.CENTER;
 
     private void Start() {
         rig = GetComponent<Rigidbody>();
-
-        lsPoint = GameController.instance.routeManger.InitPoint(routeNet.allRoutes[1].positions.ToArray());
+        GameController.instance.routeManger.InitPoint(GameController.instance.routeNet.allRoutes[0].positions.ToArray());
     }
 
-    private void Update() {
-        length += Time.deltaTime * speed;
-        if (length >= lsPoint.Count - 1) {
-            length = lsPoint.Count - 1;
+    private void Update() {     
+        if (Input.GetKeyDown(KeyCode.A)) {
+            posType = PosType.LEFT;
+        } else if (Input.GetKeyDown(KeyCode.S)) {
+            posType = PosType.CENTER;
+        } else if (Input.GetKeyDown(KeyCode.D)) {
+            posType = PosType.RIGHT;
         }
-        rig.transform.localPosition = lsPoint[(int)(length)];
 
-        //控制移动
-        float h = Input.GetAxis("Horizontal");
-        float v = Input.GetAxis("Vertical");
+        length += Time.deltaTime * speed;
+        if (length >= GameController.instance.routeManger.centerPoints.Count - 1) {
+            length = GameController.instance.routeManger.centerPoints.Count - 1;
+        }
 
-        rig.MovePosition(transform.position + new Vector3(-h, 0, -v * 1.6f) * speed * Time.deltaTime);
-        rig.MoveRotation(Quaternion.Euler(transform.rotation.eulerAngles + new Vector3(0, h * 2.4f, 0) * speed * Time.deltaTime));
+        if (posType == PosType.LEFT) {
+            rig.transform.localPosition = GameController.instance.routeManger.leftPoints[(int)(length)];
+        } else if (posType == PosType.CENTER) {
+            rig.transform.localPosition = GameController.instance.routeManger.centerPoints[(int)(length)];
+        } else {
+            rig.transform.localPosition = GameController.instance.routeManger.rightPoints[(int)(length)];
+        }
+        
     }
-
-   
 }

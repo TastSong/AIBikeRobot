@@ -5,20 +5,21 @@ using UnityEngine;
 
 public class RouteManger
 {
-    public static List<Vector3> lsPoint = new List<Vector3>();
+    public List<Vector3> centerPoints = new List<Vector3>();
+    public List<Vector3> leftPoints = new List<Vector3>();
+    public List<Vector3> rightPoints = new List<Vector3>();
     public int baseCount = 50;  //两个基础点之间的取点数量   值越大曲线就越平滑  但同时计算量也也越大
 
     //初始化算出所有的点的信息
-    public List<Vector3> InitPoint(Vector3[] basePoint) {
+    public void InitPoint(Vector3[] basePoint) {
         //获取指定的点的信息
         Vector3[] pointPos = new Vector3[basePoint.Length];
         for (int i = 0; i < basePoint.Length; i++) {
             pointPos[i].x = basePoint[i].x;
-            pointPos[i].y = basePoint[i].y + 0.8f;
+            pointPos[i].y = basePoint[i].y + 1f;
             pointPos[i].z = basePoint[i].z;
         }
         GetTrackPoint(pointPos);
-        return lsPoint;
     }
 
     /// <summary>
@@ -31,7 +32,9 @@ public class RouteManger
         for (int i = 1; i < SmoothAmount; i++) {
             float pm = (float)i / SmoothAmount;
             Vector3 currPt = Interp(vector3s, pm);
-            lsPoint.Add(currPt);
+            centerPoints.Add(currPt);
+            leftPoints.Add(currPt - new Vector3(0, 0, 5));
+            rightPoints.Add(currPt + new Vector3(0, 0, 5));
         }
     }
 

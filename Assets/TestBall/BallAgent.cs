@@ -42,7 +42,6 @@ public class BallAgent : Agent
     // speed默认为10，可以在script组件中设置
     public float forceMultiplier = 10;
     public override void OnActionReceived(ActionBuffers actionBuffers) {
-        Debug.Log("OnActionReceived");
         // Actions, size = 2
         Vector3 controlSignal = Vector3.zero;
         controlSignal.x = actionBuffers.ContinuousActions[0];
