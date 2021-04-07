@@ -2,29 +2,41 @@
     "AIBikeRobot": {
         "checkpoints": [
             {
-                "steps": 499999,
-                "file_path": "results\\AIBikeRobot\\AIBikeRobot\\AIBikeRobot-499999.onnx",
-                "reward": 0.10000000149011612,
-                "creation_time": 1617616476.9119234
+                "steps": 499939,
+                "file_path": "results\\AIBikeRobot\\AIBikeRobot\\AIBikeRobot-499939.onnx",
+                "reward": null,
+                "creation_time": 1617693415.8910997
             },
             {
                 "steps": 999999,
                 "file_path": "results\\AIBikeRobot\\AIBikeRobot\\AIBikeRobot-999999.onnx",
-                "reward": 0.10000000149011612,
-                "creation_time": 1617618442.0485086
+                "reward": null,
+                "creation_time": 1617694252.8904886
             },
             {
-                "steps": 1292886,
-                "file_path": "results\\AIBikeRobot\\AIBikeRobot\\AIBikeRobot-1292886.onnx",
-                "reward": 0.10000000149011612,
-                "creation_time": 1617620581.0440953
+                "steps": 1499975,
+                "file_path": "results\\AIBikeRobot\\AIBikeRobot\\AIBikeRobot-1499975.onnx",
+                "reward": null,
+                "creation_time": 1617695025.7153776
+            },
+            {
+                "steps": 1999971,
+                "file_path": "results\\AIBikeRobot\\AIBikeRobot\\AIBikeRobot-1999971.onnx",
+                "reward": null,
+                "creation_time": 1617695804.3430197
+            },
+            {
+                "steps": 2000547,
+                "file_path": "results\\AIBikeRobot\\AIBikeRobot\\AIBikeRobot-2000547.onnx",
+                "reward": null,
+                "creation_time": 1617695804.446114
             }
         ],
         "final_checkpoint": {
-            "steps": 1292886,
+            "steps": 2000547,
             "file_path": "results\\AIBikeRobot\\AIBikeRobot.onnx",
-            "reward": 0.10000000149011612,
-            "creation_time": 1617620581.0440953
+            "reward": null,
+            "creation_time": 1617695804.446114
         }
     },
     "metadata": {

@@ -1406,6 +1406,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1523207072}
+    - target: {fileID: 1202592187174436706, guid: 53b23d717210c9c4a844724d9811b0eb,
+        type: 3}
+      propertyPath: m_BehaviorType
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53b23d717210c9c4a844724d9811b0eb, type: 3}
 --- !u!114 &426363407
@@ -2155,6 +2160,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1523207072}
+    - target: {fileID: 1202592187174436706, guid: 53b23d717210c9c4a844724d9811b0eb,
+        type: 3}
+      propertyPath: m_BehaviorType
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53b23d717210c9c4a844724d9811b0eb, type: 3}
 --- !u!114 &579961466
@@ -2643,7 +2653,6 @@ GameObject:
   m_Component:
   - component: {fileID: 706396093}
   - component: {fileID: 706396092}
-  - component: {fileID: 706396091}
   m_Layer: 0
   m_Name: MiniCamera
   m_TagString: Untagged
@@ -2651,14 +2660,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &706396091
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 706396090}
-  m_Enabled: 1
 --- !u!20 &706396092
 Camera:
   m_ObjectHideFlags: 0
@@ -3419,6 +3420,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1523207072}
+    - target: {fileID: 1202592187174436706, guid: 53b23d717210c9c4a844724d9811b0eb,
+        type: 3}
+      propertyPath: m_BehaviorType
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53b23d717210c9c4a844724d9811b0eb, type: 3}
 --- !u!114 &746538118
@@ -4078,6 +4084,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1523207072}
+    - target: {fileID: 1202592187174436706, guid: 53b23d717210c9c4a844724d9811b0eb,
+        type: 3}
+      propertyPath: m_BehaviorType
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53b23d717210c9c4a844724d9811b0eb, type: 3}
 --- !u!114 &829889323
@@ -4647,6 +4658,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1523207072}
+    - target: {fileID: 1202592187174436706, guid: 53b23d717210c9c4a844724d9811b0eb,
+        type: 3}
+      propertyPath: m_BehaviorType
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53b23d717210c9c4a844724d9811b0eb, type: 3}
 --- !u!114 &858687141
@@ -5015,8 +5031,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   routeNet: {fileID: 8298061304533336809}
-  playerAgents:
-  - {fileID: 1373220277426614880}
 --- !u!4 &887027091
 Transform:
   m_ObjectHideFlags: 0
@@ -6300,6 +6314,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1523207072}
+    - target: {fileID: 1202592187174436706, guid: 53b23d717210c9c4a844724d9811b0eb,
+        type: 3}
+      propertyPath: m_BehaviorType
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53b23d717210c9c4a844724d9811b0eb, type: 3}
 --- !u!114 &1160266579
@@ -7295,6 +7314,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1523207072}
+    - target: {fileID: 1202592187174436706, guid: 53b23d717210c9c4a844724d9811b0eb,
+        type: 3}
+      propertyPath: m_BehaviorType
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53b23d717210c9c4a844724d9811b0eb, type: 3}
 --- !u!1 &1348417521
@@ -8126,6 +8150,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1523207072}
+    - target: {fileID: 1202592187174436706, guid: 53b23d717210c9c4a844724d9811b0eb,
+        type: 3}
+      propertyPath: m_BehaviorType
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53b23d717210c9c4a844724d9811b0eb, type: 3}
 --- !u!114 &1585749663
@@ -9809,6 +9838,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1523207072}
+    - target: {fileID: 1202592187174436706, guid: 53b23d717210c9c4a844724d9811b0eb,
+        type: 3}
+      propertyPath: m_BehaviorType
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53b23d717210c9c4a844724d9811b0eb, type: 3}
 --- !u!4 &1373220277426614880 stripped

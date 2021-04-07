@@ -55,6 +55,7 @@ MonoBehaviour:
   MaxStep: 50000
   speed: 400
   isTouch: 0
+  playerAgents: []
 --- !u!33 &8557203896084085289
 MeshFilter:
   m_ObjectHideFlags: 0
